@@ -18,7 +18,7 @@ function App() {
   }
   
   useEffect(() => {
-    getGiphy('cat')
+    getGiphy('dog')
     // the empty [] is a dependency array and when empty this code runs once when the component mounts
   }, [])
 
